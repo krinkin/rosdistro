@@ -66,6 +66,10 @@ curl:
   osx:
     homebrew:
       packages: []
+cython:
+  osx:
+    homebrew:
+      packages: [cython]
 doxygen:
   osx:
     homebrew:
@@ -155,6 +159,10 @@ hdf5:
   osx:
     homebrew:
       packages: [hdf5]
+iproute2:
+  osx:
+    homebrew:
+      packages: [iproute2mac]
 jasper:
   osx:
     homebrew:
@@ -279,26 +287,14 @@ libpoco-dev:
   osx:
     homebrew:
       packages: [poco]
-libqglviewer-qt4-dev:
+libpq-dev:
   osx:
     homebrew:
-      packages: [libqglviewer]
+      packages: [postgresql]
 libqhull:
   osx:
     homebrew:
       packages: [qhull]
-libqt4:
-  osx:
-    homebrew:
-      packages: [qt]
-libqt4-dev:
-  osx:
-    homebrew:
-      packages: [qt]
-libqt4-opengl-dev:
-  osx:
-    homebrew:
-      packages: [qt]
 libqt5-core:
   osx:
     homebrew:
@@ -331,6 +327,10 @@ libreadline-dev:
   osx:
     homebrew:
       packages: [readline]
+libspnav-dev:
+  osx:
+    homebrew:
+      packages: [libspnav]
 libssl-dev:
   osx:
     homebrew:
@@ -398,7 +398,7 @@ libvtk-qt:
 libx11:
   osx:
     homebrew:
-      packages: []
+      packages: [xquartz]
 libxaw:
   osx:
     homebrew:
@@ -596,18 +596,6 @@ python-pyproj:
   osx:
     pip:
       packages: [pyproj]
-python-qt-bindings:
-  osx:
-    homebrew:
-      packages: [pyside, shiboken, pyqt, sip]
-python-qt-bindings-gl:
-  osx:
-    homebrew:
-      packages: [pyqt]
-python-qt-bindings-qwt5:
-  osx:
-    homebrew:
-      packages: [pyqwt]
 python-qt5-bindings:
   osx:
     homebrew:
@@ -654,10 +642,6 @@ python-yaml:
     pip:
       depends: [yaml]
       packages: [PyYAML]
-qt4-qmake:
-  osx:
-    homebrew:
-      packages: [qt]
 qt5-qmake:
   osx:
     homebrew:
@@ -694,6 +678,10 @@ sdl2:
   osx:
     homebrew:
       packages: [sdl2]
+spacenavd:
+  osx:
+    homebrew:
+      packages: [libspnav]
 subversion:
   osx:
     homebrew:
@@ -742,6 +730,10 @@ tinyxml:
   osx:
     homebrew:
       packages: [tinyxml]
+tinyxml2:
+  osx:
+    homebrew:
+      packages: [tinyxml2]
 unzip:
   osx:
     homebrew:
